@@ -6,13 +6,12 @@
 //  Copyright (c) 2014 Cuadru. All rights reserved.
 //
 
-#import "CDAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation CDAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     return YES;
 }
 							

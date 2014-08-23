@@ -12,9 +12,9 @@
 		B341F8DE19A29F0F00612C7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341F8DD19A29F0F00612C7B /* UIKit.framework */; };
 		B341F8E419A29F0F00612C7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B341F8E219A29F0F00612C7B /* InfoPlist.strings */; };
 		B341F8E619A29F0F00612C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F8E519A29F0F00612C7B /* main.m */; };
-		B341F8EA19A29F0F00612C7B /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F8E919A29F0F00612C7B /* CDAppDelegate.m */; };
+		B341F8EA19A29F0F00612C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F8E919A29F0F00612C7B /* AppDelegate.m */; };
 		B341F8ED19A29F0F00612C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B341F8EB19A29F0F00612C7B /* Main.storyboard */; };
-		B341F8F019A29F0F00612C7B /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F8EF19A29F0F00612C7B /* CDViewController.m */; };
+		B341F8F019A29F0F00612C7B /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F8EF19A29F0F00612C7B /* CRViewController.m */; };
 		B341F8F219A29F0F00612C7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B341F8F119A29F0F00612C7B /* Images.xcassets */; };
 		B341F8F919A29F0F00612C7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341F8F819A29F0F00612C7B /* XCTest.framework */; };
 		B341F8FA19A29F0F00612C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341F8D919A29F0F00612C7B /* Foundation.framework */; };
@@ -24,6 +24,7 @@
 		B341F91119A29FA000612C7B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B341F91019A29FA000612C7B /* GCDAsyncUdpSocket.m */; };
 		B341F91619A2A42C00612C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341F91519A2A42C00612C7B /* AVFoundation.framework */; };
 		B341F91919A2A4FF00612C7B /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = B341F91819A2A4FF00612C7B /* alarm.wav */; };
+		B356FA2619A81EF100C73962 /* CRServerUdp.m in Sources */ = {isa = PBXBuildFile; fileRef = B356FA2519A81EF100C73962 /* CRServerUdp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +46,11 @@
 		B341F8E319A29F0F00612C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B341F8E519A29F0F00612C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B341F8E719A29F0F00612C7B /* Tomighty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tomighty-Prefix.pch"; sourceTree = "<group>"; };
-		B341F8E819A29F0F00612C7B /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
-		B341F8E919A29F0F00612C7B /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		B341F8E819A29F0F00612C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B341F8E919A29F0F00612C7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B341F8EC19A29F0F00612C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B341F8EE19A29F0F00612C7B /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
-		B341F8EF19A29F0F00612C7B /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		B341F8EE19A29F0F00612C7B /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
+		B341F8EF19A29F0F00612C7B /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
 		B341F8F119A29F0F00612C7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B341F8F719A29F0F00612C7B /* TomightyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomightyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B341F8F819A29F0F00612C7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,6 +62,8 @@
 		B341F91319A2A12000612C7B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B341F91519A2A42C00612C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B341F91819A2A4FF00612C7B /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+		B356FA2419A81EF100C73962 /* CRServerUdp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRServerUdp.h; sourceTree = "<group>"; };
+		B356FA2519A81EF100C73962 /* CRServerUdp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRServerUdp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +126,13 @@
 		B341F8DF19A29F0F00612C7B /* Tomighty */ = {
 			isa = PBXGroup;
 			children = (
-				B341F91219A29FA400612C7B /* libs */,
-				B341F8E819A29F0F00612C7B /* CDAppDelegate.h */,
-				B341F8E919A29F0F00612C7B /* CDAppDelegate.m */,
 				B341F8EB19A29F0F00612C7B /* Main.storyboard */,
-				B341F8EE19A29F0F00612C7B /* CDViewController.h */,
-				B341F8EF19A29F0F00612C7B /* CDViewController.m */,
+				B341F8EE19A29F0F00612C7B /* CRViewController.h */,
+				B341F8EF19A29F0F00612C7B /* CRViewController.m */,
 				B341F8F119A29F0F00612C7B /* Images.xcassets */,
-				B341F91719A2A4FF00612C7B /* Resources */,
 				B341F8E019A29F0F00612C7B /* Supporting Files */,
+				B356FA2419A81EF100C73962 /* CRServerUdp.h */,
+				B356FA2519A81EF100C73962 /* CRServerUdp.m */,
 			);
 			path = Tomighty;
 			sourceTree = "<group>";
@@ -139,6 +140,10 @@
 		B341F8E019A29F0F00612C7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B341F91219A29FA400612C7B /* libs */,
+				B341F91719A2A4FF00612C7B /* Resources */,
+				B341F8E819A29F0F00612C7B /* AppDelegate.h */,
+				B341F8E919A29F0F00612C7B /* AppDelegate.m */,
 				B341F8E119A29F0F00612C7B /* Tomighty-Info.plist */,
 				B341F8E219A29F0F00612C7B /* InfoPlist.strings */,
 				B341F8E519A29F0F00612C7B /* main.m */,
@@ -226,7 +231,7 @@
 		B341F8CE19A29F0F00612C7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CD;
+				CLASSPREFIX = CR;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Cuadru;
 				TargetAttributes = {
@@ -283,8 +288,9 @@
 			files = (
 				B341F91119A29FA000612C7B /* GCDAsyncUdpSocket.m in Sources */,
 				B341F8E619A29F0F00612C7B /* main.m in Sources */,
-				B341F8EA19A29F0F00612C7B /* CDAppDelegate.m in Sources */,
-				B341F8F019A29F0F00612C7B /* CDViewController.m in Sources */,
+				B356FA2619A81EF100C73962 /* CRServerUdp.m in Sources */,
+				B341F8EA19A29F0F00612C7B /* AppDelegate.m in Sources */,
+				B341F8F019A29F0F00612C7B /* CRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +495,7 @@
 				B341F90A19A29F0F00612C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B341F90B19A29F0F00612C7B /* Build configuration list for PBXNativeTarget "TomightyTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				B341F90D19A29F0F00612C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

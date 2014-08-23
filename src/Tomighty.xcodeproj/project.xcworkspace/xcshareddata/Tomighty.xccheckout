@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92640ACE-E119-4BF5-9D69-9534EF05E880</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tomighty</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AE964C8-7A2A-46E0-AE47-C88DFBC38D82</key>
+		<string>https://github.com/danielgomezrico/tomighty_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/Tomighty.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AE964C8-7A2A-46E0-AE47-C88DFBC38D82</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danielgomezrico/tomighty_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AE964C8-7A2A-46E0-AE47-C88DFBC38D82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AE964C8-7A2A-46E0-AE47-C88DFBC38D82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tomighty_ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

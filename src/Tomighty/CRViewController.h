@@ -1,5 +1,5 @@
 //
-//  CDAppDelegate.h
+//  CDViewController.h
 //  Tomighty
 //
 //  Created by Daniel Gomez Rico on 8/18/14.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CRServerUdp.h"
 
-@interface CDAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CRViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) CRServerUdp *server;
+
 
 @end
