@@ -34,10 +34,13 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // When the job expires it still keeps running since we never exited it. Thus have the expiration handler
         // set a flag that the job expired and use that to exit the while loop and end the task.
-        
+
         udpSocket = [[GCDAsyncUdpSocket alloc]
                      initWithDelegate:self
                      delegateQueue:dispatch_get_main_queue()];
+        
+        [udpSocket setIPv4Enabled:YES];
+        [udpSocket setIPv6Enabled:NO];
         
         NSError *error = nil;
         if (![udpSocket bindToPort:kPort error:&error]){
@@ -66,8 +69,6 @@ withFilterContext:(id)filterContext
     
     NSString *msg = [[NSString alloc] initWithData:data
                                           encoding:NSUTF8StringEncoding];
-    
-    NSLog(@"%@",msg);
     
     if ([msg isEqualToString:@"TIMER_STOPED"])
     {

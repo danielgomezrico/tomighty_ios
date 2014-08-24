@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "CRServerUdp.h"
 
-@interface CRViewController : UIViewController
+@interface CRServerViewController : UIViewController
 
 @property (nonatomic, strong) CRServerUdp *server;
-
+@property (weak, nonatomic) IBOutlet UILabel *textStatus;
+@property (weak, nonatomic) IBOutlet UIImageView *imageStatus;
 
 @end
